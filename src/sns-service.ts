@@ -93,7 +93,7 @@ export class SNSService implements ServiceDeployer {
             subscriptions: serviceContext.params.subscriptions,
             topicName: stackName
         };
-        return handlebars.compileTemplate(`${__dirname}/sns-template.handlebars`, handlebarsParams);
+        return handlebars.compileTemplate(`${__dirname}/sns-template.yml`, handlebarsParams);
     }
 
     private getDeployContext(serviceContext: ServiceContext<SnsServiceConfig>, cfStack: AWS.CloudFormation.Stack): DeployContext {
