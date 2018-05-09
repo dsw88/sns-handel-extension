@@ -1,0 +1,2 @@
+# SNS Handel Extension
+This repository contains a Handel extension that provides the SNS service. Handel itself already ships with an SNS service, but this is meant to be a simple example extension that people can look at as they write other Handel extensions.
