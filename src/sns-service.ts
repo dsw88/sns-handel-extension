@@ -16,14 +16,8 @@
  */
 import * as AWS from 'aws-sdk';
 import {
-    AccountConfig,
-    BindContext,
-    ConsumeEventsContext,
     DeployContext,
-    IDeployContext,
-    IPreDeployContext,
     PreDeployContext,
-    ProduceEventsContext,
     ServiceConfig,
     ServiceContext,
     ServiceDeployer,
