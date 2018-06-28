@@ -1,6 +1,6 @@
 {
   "name": "sns-handel-extension",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Handel Extension that provides the SNS service",
   "main": "dist/extension.js",
   "scripts": {
